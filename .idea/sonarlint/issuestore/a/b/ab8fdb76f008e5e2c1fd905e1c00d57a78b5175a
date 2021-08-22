@@ -1,0 +1,23 @@
+
+>
+java:S1604%"(Make this anonymous inner class a lambda(ûä¡Å
+E
+java:S1659"/Declare "mPasswordEditText" on a separate line.(ı—Õ×
+1
+java:S3626;"Remove this redundant jump.(ûÁİ…
+1
+java:S3626?"Remove this redundant jump.(ûÁİ…
+D
+java:S14817")Remove this unused "user" local variable.(ÆÃšûÿÿÿÿ
+Q	java:S110"<This class has 9 parents which is greater than 5 authorized.(Ğóø
+1
+java:S3626G"Remove this redundant jump.(ûÁİ…
+S
+java:S18547"8Remove this useless assignment to local variable "user".(ÆÃšûÿÿÿÿ
+1
+java:S3626C"Remove this redundant jump.(ûÁİ…
+8
+java:S1659""Declare "pswd" on a separate line.(‡õÏí
+C
+java:S1604/"(Make this anonymous inner class a lambda(Ò€³ûÿÿÿÿ
+W	java:S125š"<This block of commented-out lines of code should be removed.(”Ş×“üÿÿÿÿ

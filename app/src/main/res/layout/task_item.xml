@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tasklistLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="319dp"
+            android:layout_height="wrap_content"
+            android:text="task title"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/workday"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:text="working day" />
+
+        <TextView
+            android:id="@+id/Salary"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="salary"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/editBtn"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            app:backgroundTint="#FF32A79D" />
+
+    </LinearLayout>
+
+</RelativeLayout>

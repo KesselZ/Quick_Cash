@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_post"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="@string/post_tasks" />
+
+
+        <item
+            android:id="@+id/nav_mypost"
+            android:icon="?android:attr/actionModeFindDrawable"
+            android:title="@string/my_post" />
+
+        <item
+            android:id="@+id/nav_mytask"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="My Tasks" />
+
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_menu_chat"
+            android:title="Chat"/>
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="History" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="?android:attr/fingerprintAuthDrawable"
+            android:title="@string/Login" />
+
+
+    </group>
+
+</menu>

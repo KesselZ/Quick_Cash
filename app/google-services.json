@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1271979099",
+    "firebase_url": "https://quickcash-fdff3-default-rtdb.firebaseio.com",
+    "project_id": "quickcash-fdff3",
+    "storage_bucket": "quickcash-fdff3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1271979099:android:8eb3616c3898d8b59df37e",
+        "android_client_info": {
+          "package_name": "com.example.project1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1271979099-jff6q8e6qjo71msegc266899atf85stt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgHmv0W7A155PS53WKYq0RnwvIdtvRTWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1271979099-jff6q8e6qjo71msegc266899atf85stt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1271979099:android:1810e92daa7db48b9df37e",
+        "android_client_info": {
+          "package_name": "com.example.quickcash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1271979099-jff6q8e6qjo71msegc266899atf85stt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgHmv0W7A155PS53WKYq0RnwvIdtvRTWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1271979099-jff6q8e6qjo71msegc266899atf85stt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

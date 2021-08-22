@@ -1,0 +1,19 @@
+
+_
+java:S1192+"IDefine a constant instead of duplicating this literal "receiver" 3 times.(ŞÖ
+]
+java:S1192,"GDefine a constant instead of duplicating this literal "sender" 3 times.(Û¦èŞ
+Q	java:S110"<This class has 9 parents which is greater than 5 authorized.(¦«Ö
+C
+java:S16048"(Make this anonymous inner class a lambda(‡ÊË¯úÿÿÿÿ
+T
+java:S1128">Remove this unused import 'android.text.style.IconMarginSpan'.(¹¿„ü
+Y
+java:S1128">Remove this unused import 'com.example.project1.MainActivity'.(ÒÄ¥ïÿÿÿÿÿ
+n
+java:S1450"SRemove the "send" field and declare it as a local variable in the relevant methods.(óø¶Šøÿÿÿÿ
+V	java:S125/"<This block of commented-out lines of code should be removed.(¯Ä’Ÿüÿÿÿÿ
+—
+java:S1186s"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦
+H
+java:S1144J"-Remove this unused private "initMsgs" method.(Û˜‚ìøÿÿÿÿ

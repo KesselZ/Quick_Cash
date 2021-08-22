@@ -1,0 +1,18 @@
+
+D
+java:S1604¨"(Make this anonymous inner class a lambda(òòËçúÿÿÿÿ
+t
+java:S1104¨"XMake postDateSort a static final constant or non-public and provide accessors if needed.(òòËçúÿÿÿÿ
+J
+java:S1128"/Remove this unused import 'java.util.TimeZone'.(à‡Õùÿÿÿÿ
+P
+java:S1128"5Remove this unused import 'android.location.Address'.(ˆùÄ©úÿÿÿÿ
+M
+java:S1128
+"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ
+`
+java:S1128"ERemove this unused import 'com.google.android.gms.maps.model.LatLng'.(Ï˜Éıüÿÿÿÿ
+D
+java:S1128"/Remove this unused import 'java.sql.Timestamp'.(èò½+
+N
+java:S1444¨"2Make this "public static postDateSort" field final(òòËçúÿÿÿÿ

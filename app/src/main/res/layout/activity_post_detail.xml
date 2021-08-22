@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostDetail"
+    android:background="@drawable/search_view_shape">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/taskDetailTitle"
+        android:layout_width="285dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginRight="138dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.242"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/taskDetailLayout"
+        android:layout_width="357dp"
+        android:layout_height="583dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="52dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/taskDetailTitle">
+
+        <TextView
+            android:id="@+id/taskDetailDescription"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:text="Description"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/taskLocation"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="location" />
+
+        <TextView
+            android:id="@+id/taskWorkDay"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="workday" />
+
+        <TextView
+            android:id="@+id/taskWageDetail"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Wage"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/taskPublisherDetail"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="publisher" />
+
+        <TextView
+            android:id="@+id/taskWorkerDetail"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="worker" />
+
+        <TextView
+            android:id="@+id/taskStatus"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="task status"
+            android:textStyle="italic" />
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="301dp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

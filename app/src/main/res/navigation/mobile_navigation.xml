@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.project1.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_post"
+        android:name="com.example.project1.ui.post.PostFragment"
+        android:label="@string/label_post"
+        tools:layout="@layout/fragment_post" >
+        <argument
+            android:name="editTaskId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_my_post"
+        android:name="com.example.project1.ui.mypost.MyPostFragment"
+        android:label="@string/label_mypost"
+        tools:layout="@layout/fragment_mypost" />
+
+    <fragment
+        android:id="@+id/nav_my_task"
+        android:name="com.example.project1.ui.mytask.MyTaskFragment"
+        android:label="My Tasks"
+        tools:layout="@layout/fragment_mytask" />
+
+    <fragment
+        android:id="@+id/nav_not_logged"
+        android:name="com.example.project1.ui.NotLoggedFragment"
+        android:label="Not Logged"
+        tools:layout="@layout/fragment_not_logged" />
+
+    <fragment
+        android:id="@+id/nav_edit"
+        android:name="com.example.project1.ui.edit.EditFragment"
+        android:label="Edit Your Post"
+        tools:layout="@layout/fragment_edit" />
+
+    <fragment
+        android:id="@+id/nav_chat"
+        android:name="com.example.project1.ui.chat.ChatFragment"
+        android:label="Chatting"
+        tools:layout="@layout/activity_chat" />
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.project1.ui.history.HistoryPage"
+        android:label="History"
+        tools:layout="@layout/history_page" />
+</navigation>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/searchView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.chat.ChatFragment">
+
+
+    <SearchView
+        android:id="@+id/userSearchView"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="Find a user"
+        android:showDividers="none"
+        android:background="@drawable/search_view_shape"
+        android:queryBackground="@null"
+        android:submitBackground="@null"
+        android:visibility="visible"
+
+
+
+        />
+
+    <ListView
+        android:id="@+id/userListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/search_view_shape"
+        android:visibility="visible" />
+
+
+
+
+</LinearLayout>

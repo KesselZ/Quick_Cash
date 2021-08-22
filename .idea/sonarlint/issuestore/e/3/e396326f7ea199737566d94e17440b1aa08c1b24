@@ -1,0 +1,27 @@
+
+Q
+java:S1854•";Remove this useless assignment to local variable "address".(ø—¤
+>
+java:S1604q"(Make this anonymous inner class a lambda(äïºø
+=
+java:S1604;"(Make this anonymous inner class a lambda(áœ
+C
+java:S1604U"(Make this anonymous inner class a lambda(ÒéÁ¤úÿÿÿÿ
+l
+java:S1450-"VRemove the "postBtn" field and declare it as a local variable in the relevant methods.(ú•’
+w
+java:S1450+"\Remove the "postViewModel" field and declare it as a local variable in the relevant methods.(šÔŒÈşÿÿÿÿ
+m
+java:S3252U"RUse static access with "android.app.AlertDialog" for "THEME_DEVICE_DEFAULT_LIGHT".(ÒéÁ¤úÿÿÿÿ
+E
+java:S10681"*Remove this unused "dbTask" private field.(À§ú·ûÿÿÿÿ
+C
+java:S1604P"(Make this anonymous inner class a lambda(Âğîøıÿÿÿÿ
+–
+java:S1186="€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(İÏ‡p
+]
+java:S1874U"BRemove this use of "THEME_DEVICE_DEFAULT_LIGHT"; it is deprecated.(ÒéÁ¤úÿÿÿÿ
+o
+java:S1450,"YRemove the "selectDate" field and declare it as a local variable in the relevant methods.(ï¬¶
+U
+java:S11616":Add the "@Override" annotation above this method signature(î•Éğûÿÿÿÿ
